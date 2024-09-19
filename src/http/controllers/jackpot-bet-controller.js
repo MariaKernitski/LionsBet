@@ -47,5 +47,6 @@ const update = async (req, res) => {
         res.status(400).json(error);
     }
 }
+ 
 
 export default {store, index, show, update}
